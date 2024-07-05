@@ -5,6 +5,7 @@ import { menuSlide } from "../anim";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Curve from "./Curve";
+import Footer from "./Footer";
 
 const navItems = [
   { title: "Home", href: "/" },
@@ -30,9 +31,6 @@ export default function Nav() {
             setSelectedIndicator(pathname);
           }}
           className={styles.nav}>
-          <div className={styles.header}>
-            <p>Navigation</p>
-          </div>
           {navItems.map((data, i) => {
             return (
               <Link
@@ -43,6 +41,7 @@ export default function Nav() {
             );
           })}
         </div>
+        <Footer />
       </div>
       <Curve />
     </motion.div>
