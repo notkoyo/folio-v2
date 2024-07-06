@@ -5,4 +5,10 @@
 :root {
   background-color: #e8e8e8;
   overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+:root::-webkit-scrollbar {
+  display: none;
 }
