@@ -7,8 +7,7 @@ export default function Home() {
       <PreLoader />
       <section className="flex h-screen w-full justify-center items-center py-20 text-[#191815]">
         <h1 className="flex flex-col xl:text-[20rem] xl:leading-[16rem] lg:text-[16rem] lg:leading-[13rem] md:text-[12rem] md:leading-[10rem] sm:text-[10rem] sm:leading-[8.5rem] text-[7rem] leading-[6rem] font-bold uppercase tracking-tighter">
-          <span>kaiden</span>
-          <span>riley</span>
+          {`kaiden`}
         </h1>
         <div className="absolute left-0 top-0 flex translate-x-[3.2rem] translate-y-[2.7rem] items-center gap-x-2">
           <div className="h-3 w-3 rounded-full bg-green-500" />
